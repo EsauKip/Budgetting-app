@@ -1,0 +1,25 @@
+* {
+    background: #E5E5E5;
+}
+
+ .sectionone {
+    background-image: url("../images/abooutbackground.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;
+    
+
+}
+#about {
+    color:#32CCBC;
+   /* color: #90F7EC;*/
+    font-weight: 900;
+    font-size: x-large;
+
+}
+
+
+
+.aboutus p {
+    color: #32CCBC;
+}
