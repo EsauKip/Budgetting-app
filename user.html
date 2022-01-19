@@ -16,123 +16,123 @@
 </head>
 
 <body>
-
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">
+          <img src="IMAGES/logo.jpg" width="80" height="40" alt="logo">
+        </a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#"><button class="btn" type="submit">Sign in</button></a></li>
+            <li><a href="#"><button class="btn" type="submit">Sign up</button></a></li>
+        </ul>
+    </nav>
+    <div id="container">
+        <div id="main">
+        </div>
+    </div>
+    
+    <div class="container">
+        <div id="firstbudget">
+            <div>
+                <h2 style="margin-left: 50px;"> BUDGET APP </h2>
+                <div class="box1">
+                    <div> Please Enter Your Budjet </div>
+                    <input type="number" class="amount" name="budget" id="budget" placeholder="Enter Your Budjet Amount"><br>
+                    <button type="button" onclick="budgetclick()" class="btn1"> Calculate </button>
+                </div>
+            </div>
+            <div>
+                <div class="box2">
+                    <div> Please Enter Your Expense Item</div>
+                    <input type="text" class="amount" id="expense" placeholder="Enter Expense Item"> <br>
+                    <div> Please Enter Your Expense Amount </div>
+                    <input type="number" class="amount" name="expenseamount" id="expenseamount"
+                        placeholder="Enter Expense Amount"> <br>
+                    <button class="btn1" onclick="expenseclick()">Calculate</button>
+                    <div id="warning"></div>
+                </div>
+            </div>
+        </div>
+        <div id="secondbudget">
+            <div id="secondbudget1">
+                <div class="box3">
+                    <h2>BUDGET</h2>
+                    <div class="logo"><i class="fas fa-money-check-alt"></i></div>
+                    <div class="price1">$ <span id="budjetprice"> 0 </span></div>
+                </div>
+                <div class="box3">
+                    <h2>EXPENSES</h2>
+                    <div class="logo"><i class="fas fa-shopping-cart"></i></div>
+                    <div class="price2">$ <span id="expenseprice"> 0 </span> </div>
+                </div>
+                <div class="box3">
+                    <h2>BALANCE</h2>
+                    <div class="logo"><i class="fas fa-dollar-sign"></i></div>
+                    <div class="price1">$ <span id="balanceprice"> 0 </span> </div>
+                </div>
+            </div>
+            <div class="secondbudget2">
+                <div class="row1">
+                    <div>
+                        Expense Title
+                    </div>
+                </div>
+                <div class="row1">
+                    <div>
+                        Expense Value
+                    </div>
+                </div>
+                <div class="row1">
+                    <div>
+                        &nbsp; Edit/Delete
+                    </div>
+                </div>
+            </div>
+            <div class="secondbudget2 money">
+                <div class="row1">
+                    <div class="item" id="expenseitemadd"></div>
+                </div>
+                <div class="row1">
+                    <div class="item" id="expenseamountadd"></div>
+                </div>
+                <div class="row1">
+                    <div class="item" id="iconadd"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="comment-box">
+            <h6>Leave a comment</h6>
+            <input type="text" name="comments" placeholder="add a comment...">
+            <button class="btn" type="submit">Send</button>
+        </div>
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h6>Quick links</h6>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+            </div>
+            <div class="footer-heading footer-2">
+                <h6>Contact Information</h6>
+                <a>+254 725933154</a>
+                <a>+254 789652341</a>
+                <a>+254 486315215</a>
+            </div>
+            <div class="footer-heading footer-3">
+                <h6>Follow us on:</h6>
+                <a>Facebook</a>
+                <a>Instagram</a>
+                <a>Twitter</a>
+                <a>LinkedIn</a>
+            </div>
+        </div>
+        <h6>copyright :info@budgeter.co.ke 2022</h6>
+    </div>
+    
 </body>
-<nav class="navbar">
-    <a class="navbar-brand" href="#">
-      <img src="IMAGES/logo.jpg" width="80" height="40" alt="logo">
-    </a>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#"><button class="btn" type="submit">Sign in</button></a></li>
-        <li><a href="#"><button class="btn" type="submit">Sign up</button></a></li>
-    </ul>
-</nav>
-<div id="container">
-    <div id="main">
-    </div>
-</div>
-
-<div class="container">
-    <div id="firstbudget">
-        <div>
-            <h2 style="margin-left: 50px;"> BUDGET APP </h2>
-            <div class="box1">
-                <div> Please Enter Your Budjet </div>
-                <input type="number" class="amount" name="budget" id="budget" placeholder="Enter Your Budjet Amount"><br>
-                <button type="button" onclick="budgetclick()" class="btn1"> Calculate </button>
-            </div>
-        </div>
-        <div>
-            <div class="box2">
-                <div> Please Enter Your Expense Item</div>
-                <input type="text" class="amount" id="expense" placeholder="Enter Expense Item"> <br>
-                <div> Please Enter Your Expense Amount </div>
-                <input type="number" class="amount" name="expenseamount" id="expenseamount"
-                    placeholder="Enter Expense Amount"> <br>
-                <button class="btn1" onclick="expenseclick()">Calculate</button>
-                <div id="warning"></div>
-            </div>
-        </div>
-    </div>
-    <div id="secondbudget">
-        <div id="secondbudget1">
-            <div class="box3">
-                <h2>BUDGET</h2>
-                <div class="logo"><i class="fas fa-money-check-alt"></i></div>
-                <div class="price1">$ <span id="budjetprice"> 0 </span></div>
-            </div>
-            <div class="box3">
-                <h2>EXPENSES</h2>
-                <div class="logo"><i class="fas fa-shopping-cart"></i></div>
-                <div class="price2">$ <span id="expenseprice"> 0 </span> </div>
-            </div>
-            <div class="box3">
-                <h2>BALANCE</h2>
-                <div class="logo"><i class="fas fa-dollar-sign"></i></div>
-                <div class="price1">$ <span id="balanceprice"> 0 </span> </div>
-            </div>
-        </div>
-        <div class="secondbudget2">
-            <div class="row1">
-                <div>
-                    Expense Title
-                </div>
-            </div>
-            <div class="row1">
-                <div>
-                    Expense Value
-                </div>
-            </div>
-            <div class="row1">
-                <div>
-                    &nbsp; Edit/Delete
-                </div>
-            </div>
-        </div>
-        <div class="secondbudget2 money">
-            <div class="row1">
-                <div class="item" id="expenseitemadd"></div>
-            </div>
-            <div class="row1">
-                <div class="item" id="expenseamountadd"></div>
-            </div>
-            <div class="row1">
-                <div class="item" id="iconadd"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="footer-container">
-    <div class="comment-box">
-        <h6>Leave a comment</h6>
-        <input type="text" name="comments" placeholder="add a comment...">
-        <button class="btn" type="submit">Send</button>
-    </div>
-    <div class="footer">
-        <div class="footer-heading footer-1">
-            <h6>Quick links</h6>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-        </div>
-        <div class="footer-heading footer-2">
-            <h6>Contact Information</h6>
-            <a>+254 725933154</a>
-            <a>+254 789652341</a>
-            <a>+254 486315215</a>
-        </div>
-        <div class="footer-heading footer-3">
-            <h6>Follow us on:</h6>
-            <a>Facebook</a>
-            <a>Instagram</a>
-            <a>Twitter</a>
-            <a>LinkedIn</a>
-        </div>
-    </div>
-    <h6>copyright :info@budgeter.co.ke 2022</h6>
-</div>
 
 </html>
