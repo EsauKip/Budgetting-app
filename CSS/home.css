@@ -2,9 +2,49 @@
     margin: 0;
     padding: 0;
 }
+body{
+    position: relative;
+}
+.login{
+    text-align: center;
+    height: 900px;
+    
+}
 .btn{
     background-color: #90F7EC;
     width: 150px;
+   margin-left: 40px;
    
-    border-radius: 40px;
+}
+.row{
+    margin-top: 3%;
+}
+.fa-linkedin{
+    height: 30px;
+}
+.ellipse{
+    
+    clip-path: ellipse(900px 500px at 40% 50%); 
+    background-color: #90F7EC;
+    height: 900px;
+    margin-left: -100%;
+}
+/* .circle{
+    clip-path: circle(200px 700px at 40% );
+    background-color: #90F7EC;
+   
+    
+   
+    padding-bottom: 30px;
+
+} */
+
+.con{
+    
+   float: right;
+   position: relative;
+   margin-left:70% ;
+   padding-bottom: 5%;
+
+
 }
