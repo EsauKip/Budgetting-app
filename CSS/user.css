@@ -24,3 +24,32 @@
    border-radius: 3px;
    font-size: 20px;
 }
+.btn1{
+    border: 1px solid rgb(109, 224, 86);
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.amount{
+    border: 1px solid rgb(109, 224, 86);
+    border-radius: 2px;
+    margin: 15px;
+    width: 95%;
+    font-size: 20px;
+}
+
+#secondbudget1{
+    display: flex;
+    margin-top: 30px;
+}
+
+.box3{
+    margin: 45px;
+    width: 200px;
+    text-align: center;
+}
+
+#bodypage{
+    display: flex;
+}
+
