@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    background-color: #90F7EC;
+    width: 150px;
+   
+    border-radius: 40px;
+}
