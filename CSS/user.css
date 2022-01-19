@@ -53,3 +53,47 @@
     display: flex;
 }
 
+.price1{
+    font-size: 30px;
+    color: rgb(7, 250, 68);
+}
+
+.price2{
+    font-size: 30px;
+    color: rgb(248, 0, 0);
+}
+
+.logo{
+    color: rgb(27, 27, 245);
+    font-size: 50px;
+}
+
+.secondbudget2{
+     display: flex;
+     margin-left: 50px;
+}
+
+#warning{
+    margin-top: 10px;
+    font-size: 20px;
+    color: red;
+}
+
+.row1{
+    width: 200px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.item{
+    color: red;
+    margin: 10px;
+}
+
+.editicon{
+    color: blue;
+}
+
+.icon{
+    margin: 60px;
+}
