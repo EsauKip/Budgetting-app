@@ -1,36 +1,39 @@
-*{
+* {
     margin: 0;
     position: relative;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
-.container{
+
+.container {
     background-color: rgb(255, 240, 240);
 }
+
 .box1 {
-   border: 2px solid rgb(43, 223, 43);
-   width: 800px;
-   margin: 50px;
-   padding: 20px;
-   border-radius: 3px;
-   font-size: 20px;
+    border: 2px solid rgb(43, 223, 43);
+    width: 800px;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 3px;
+    font-size: 20px;
 }
 
 .box2 {
-   border: 2px solid rgb(223, 43, 43);
-   width: 800px;
-   margin: 60px 50px;
-   padding: 20px;
-   border-radius: 3px;
-   font-size: 20px;
+    border: 2px solid rgb(223, 43, 43);
+    width: 800px;
+    margin: 60px 50px;
+    padding: 20px;
+    border-radius: 3px;
+    font-size: 20px;
 }
-.btn1{
+
+.btn1 {
     border: 1px solid rgb(109, 224, 86);
     border-radius: 2px;
     font-size: 20px;
 }
 
-.amount{
+.amount {
     border: 1px solid rgb(109, 224, 86);
     border-radius: 2px;
     margin: 15px;
@@ -38,62 +41,71 @@
     font-size: 20px;
 }
 
-#secondbudget1{
+#secondbudget1 {
     display: flex;
     margin-top: 30px;
 }
 
-.box3{
+.box3 {
     margin: 45px;
     width: 200px;
     text-align: center;
 }
 
-#bodypage{
+#bodypage {
     display: flex;
 }
 
-.price1{
+.price1 {
     font-size: 30px;
     color: rgb(7, 250, 68);
 }
 
-.price2{
+.price2 {
     font-size: 30px;
     color: rgb(248, 0, 0);
 }
 
-.logo{
+.logo {
     color: rgb(27, 27, 245);
     font-size: 50px;
 }
 
-.secondbudget2{
-     display: flex;
-     margin-left: 50px;
+.secondbudget2 {
+    display: flex;
+    margin-left: 50px;
 }
 
-#warning{
+#warning {
     margin-top: 10px;
     font-size: 20px;
     color: red;
 }
 
-.row1{
+.row1 {
     width: 200px;
     font-size: 25px;
     text-align: center;
 }
 
-.item{
+.item {
     color: red;
     margin: 10px;
 }
 
-.editicon{
+.editicon {
     color: blue;
 }
 
-.icon{
+.icon {
     margin: 60px;
+}
+
+div.secondbudget3 {
+    background-color: rgb(255, 240, 240);
+    width: 600px;
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
 }
