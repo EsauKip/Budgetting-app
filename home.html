@@ -46,17 +46,17 @@
     <p style="font-weight: 600; font-size: 20px;">Please sign in to get acces to our application</p> <br>
 <p>Sign in here:</p> 
 
-<form action="user.html" class="form">
+<form  onsubmit=" return validate()" action="message.html" class="form">
     <label for="username"  style="font-size: 20px;"> Username:</label> <br>
     <input type="text" id="uname"> <br> <br>
     <label for="password"  style="font-size: 20px;">Password:</label> <br>
     <input type="password" id="pass"> <br> <br>
 
-    <button class="btn">Sign in</button> <br> <br>
+    <button type="submit" id="btn">Sign in</button> <br> <br>
 </form>
 <p style="font-size: 30px; font-weight: bold;">or</p>
 
-<button class="btn">Sign up</button> <br> <br>
+<button class="btn" id="btn">Sign up</button> <br> <br>
 
 <div class="icons">
     <i class="fab fa-linkedin"></i>
@@ -69,6 +69,6 @@
   </div>
     
 
-
+<script src="JS/home.js"></script>
 </body>
 </html>

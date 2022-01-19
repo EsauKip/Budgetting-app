@@ -10,10 +10,13 @@ body{
     height: 900px;
     
 }
-.btn{
+#btn{
     background-color: #90F7EC;
     width: 150px;
+    height: 50px;
    margin-left: 40px;
+   border-radius: 20px;
+   
    
 }
 .row{
