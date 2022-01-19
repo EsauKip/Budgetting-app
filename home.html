@@ -16,34 +16,42 @@
     />
 </head>
 <body>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.jpeg" width="80" height="40" alt="logo">
+        </a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#"><button class="btn" type="submit">Sign in</button></a></li>
+            <li><a href="#"><button class="btn" type="submit">Sign up</button></a></li>
+        </ul>
+    </nav>
+
+
   <div class="container-fluid login">
 
 <div class="row">
-<div class="col-md-7 bg-success">
-
-<div class="ellipse">
-
-    <!-- <div class="image">
-<img src="images/pic.jpg" height="200px" alt="">
-    </div> -->
-    <div class="con">
-        <p>Budget your <br> finances</p>
-
-        <p>Login in  <br> with your <br>
-            sign in credentials</p>
+<div class="col-md-7">
+<h1 style="font-style: italic;">Budget your finances</h1>
+<div class="content">
+    <div class="image">
+        <img src="images/l.svg" height="400px">
     </div>
+    <div class="con">
+        <p>log in <br> with your <br> sign in credentials  </p>
+ <p style="font-size: 20px;">Manage your expenses</p>
 
 
-
+ <p>For more infor visit <a href="">read more</a></p>
+    </div>
+</div>
 </div>
 
 
-
-
-
-</div>
 <div class="col-md-5" >
-    <p style="font-weight: 600; font-size: 20px;">Please sign in to get acces to our application</p> <br>
+    <!-- <p style="font-weight: 600; font-size: 20px;">Please sign in to get acces to our application</p> <br>
 <p>Sign in here:</p> 
 
 <form  onsubmit=" return validate()" action="message.html" class="form">
@@ -56,17 +64,86 @@
 </form>
 <p style="font-size: 30px; font-weight: bold;">or</p>
 
-<button class="btn" id="btn">Sign up</button> <br> <br>
+<button class="ctn" id="btn">Sign up</button> <br> <br>
 
 <div class="icons">
-    <i class="fab fa-linkedin"></i>
-    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-linkedin lk" ></i>
+    <i class="fab fa-facebook-square fb"></i>
+</div> -->
+
+
+<div class="box">
+
+    <img src="images/icon.png">
+    <div class="page">
+        <div class="header">
+            <a id="login" class="active" href="#login">login</a>
+            <a id="signup" href="#signup">signup</a>
+        </div>
+        <div id="errorMsg"></div>
+        <div class="content">
+            <form  action="user.html"  class="login" name="loginForm" onsubmit="return validateLoginForm()">
+                <input type="text" name="name" id="logName" placeholder="Username">
+                <input type="password" name="password" id="logPassword" placeholder="Password">
+                <div id="check">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <br><br>
+                <input type="submit" value="Login">
+                <a href="#">Forgot Password?</a>
+            </form>
+            <form class="signup" name="signupForm" onsubmit="return validateSignupForm()" method="POST">
+                <input type="email" name="email" id="signEmail" placeholder="Email">
+                <input type="text" name="name" id="signName" placeholder="Username">
+                <input type="password" name="password" id="signPassword" placeholder="Password"><br>
+                <input type="submit" value="SignUp">
+            </form>
+        </div>
+    </div>
 </div>
 </div>
 
-</div>
+</div> 
 
-  </div>
+ 
+
+</div>  <br> <br>
+  
+    
+<!-- footer -->
+<footer class="container-fluid">
+    <center> 
+        <textarea name="" id="" cols="50" rows="3" placeholder=" Add comment"></textarea>
+    </center>
+    <button id="ctn">send</button>
+    <div class="row">
+        <div class="col-md-4 links">
+            <h6>Quick links</h6><br>
+            <a href="home.html">Home</a><br>
+            <a href="#">about.html</a><br>
+            <a href="#">Services</a><br>
+        </div>
+        <div class="col-md-4">
+            <h6>Contact Information</h6>
+            <a>+254 725933154</a><br>
+            <a>+254 789652341</a><br>
+            <a>+254 486315215</a><br>
+        </div>
+        <div class="col-md-4">
+            <h6>Follow us on:</h6><br>
+            <a>Facebook</a><br>
+            <a>Instagram</a><br>
+            <a>Twitter</a><br>
+            <a>LinkedIn</a>
+        </div>
+    </div>
+    <div class="copy">
+        <p>&copy:info@budgeter.co.ke 2022
+        </p>
+    </div>
+</footer>
+
     
 
 <script src="JS/home.js"></script>
