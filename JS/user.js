@@ -48,3 +48,22 @@ function expenseclick() {
         warning.innerText = "Please enter your expense item and amount! ";
     }
 }
+//number function for allocated budget price
+function am(element) {
+    var expenseitemadd = document.getElementById("expenseitemadd");
+    expenseitemadd.innerHTML += `<div id="exitem${element}"> </div>`;
+    var expenseamountadd = document.getElementById("expenseamountadd");
+    expenseamountadd.innerHTML += `<div id="vl${element}"> $ <span id="expenvl${element}"></span></div>`;
+    var iconadd = document.getElementById("iconadd");
+    iconadd.innerHTML += `<div class="icon" id="icon${element}"><span class="editicon"><i class="fas fa-pen-square" onclick="edit(${element})"></i></span>
+        <i class="fas fa-trash" onclick="del(${element})"></i></div>`;
+    document.getElementById(`exitem${element}`).innerText = document.getElementById("expense").value;
+    document.getElementById(`expenvl${element}`).innerText = document.getElementById("expenseamount").value;
+    examount += Number(document.getElementById("expenseamount").value);
+    document.getElementById('expenseprice').innerText = examount;
+    balamount -= Number(document.getElementById("expenseamount").value);
+    document.getElementById('balanceprice').innerText = balamount;
+    document.getElementById("expense").value = "";
+    document.getElementById("expenseamount").value = "";
+    money.scrollTo(0, money.scrollHeight);
+}
