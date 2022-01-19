@@ -34,3 +34,17 @@ var edit = (element) => {
     document.getElementById(`exitem${element}`).innerText = "";
     document.getElementById(`icon${element}`).innerHTML = "";
 }
+// number budget function 
+var numclick = 0
+
+function expenseclick() {
+    let expenseval = document.getElementById("expenseamount").value;
+    let warning = document.getElementById("warning");
+    if (expenseval != "") {
+        numclick++
+        am(numclick)
+        warning.innerText = "";
+    } else {
+        warning.innerText = "Please enter your expense item and amount! ";
+    }
+}
