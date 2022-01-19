@@ -6,11 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="CSS/user.css">
     <title>Budget</title>
 </head>
@@ -18,17 +16,17 @@
 <body>
     <nav class="navbar">
         <a class="navbar-brand" href="#">
-          <img src="Image/WhatsApp Image 2022-01-18 at 14.27.58.jpeg" width="80" height="40" alt="logo">
+            <img src="Image/WhatsApp Image 2022-01-18 at 14.27.58.jpeg" width="80" height="40" alt="logo">
         </a>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="#">Services</a></li>
-            <li><a href="#"><button class="btn" type="submit">Sign in</button></a></li>
-            <li><a href="#"><button class="btn" type="submit">Sign up</button></a></li>
+            <li><a href="#login"><button class="btn" type="submit">Sign in</button></a></li>
+            <li><a href="#signup"><button class="btn" type="submit">Sign up</button></a></li>
         </ul>
     </nav>
-    
+
     <div class="container">
         <div id="firstbudget">
             <div>
@@ -44,8 +42,7 @@
                     <div> Please Enter Your Expense Item</div>
                     <input type="text" class="amount" id="expense" placeholder="Enter Expense Item"> <br>
                     <div> Please Enter Your Expense Amount </div>
-                    <input type="number" class="amount" name="expenseamount" id="expenseamount"
-                        placeholder="Enter Expense Amount"> <br>
+                    <input type="number" class="amount" name="expenseamount" id="expenseamount" placeholder="Enter Expense Amount"> <br>
                     <button class="btn1" onclick="expenseclick()">Calculate</button>
                     <div id="warning"></div>
                 </div>
@@ -126,8 +123,8 @@
         <div class="copy">
             <p>&copy:info@budgeter.co.ke 2022
             </p>
-    
-    <script src="JS/user.js"></script>
+
+            <script src="JS/user.js"></script>
 </body>
 
 </html>
