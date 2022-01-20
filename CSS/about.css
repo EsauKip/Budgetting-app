@@ -1,25 +1,111 @@
-* {
-    background: #E5E5E5;
-}
-
+body{
+margin: 0;
+padding: 0;
+background:#E5E5E5;
+    }
+    
+    .navbar{
+    width: 100%;
+    overflow: auto;
+    background: linear-gradient(135deg, #90F7EC 0%, #32CCBC 100%);
+    font-style: normal;
+    }
+    
+    ul{
+    padding: 0;
+    margin: 0 0 0 250px;
+    list-style: none;
+    }
+    
+    li{
+    float: left;
+    text-decoration: none;
+    }
+    
+    li a{
+     width: 100px;
+     padding: 20px 15px;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+    }
+    
+    li a:hover{
+    background: linear-gradient(135deg, #FCCF31 0%,#F55555 100%);
+    text-transform: uppercase;
+    }
+    
+    .btn{
+    background: linear-gradient(135deg, #FCCF31 0%, #F55555 100%);
+    border: none;
+    width: 80px;
+    height: 28px;
+    top: 35px;
+    left: 1080px;
+    border-radius: 10px;
+    }
+    
+    html, body{
+    height: 100%;
+    }
+    
+    #container{
+    min-height: 100%;
+    }
+    
+    #main {
+    overflow: auto;
+    padding-bottom: 100px;
+    }
  .sectionone {
     background-image: url("../images/abooutbackground.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 30em;
+    align-items: center;
     
 
 }
 #about {
-    color:#32CCBC;
+    color:black;
    /* color: #90F7EC;*/
     font-weight: 900;
-    font-size: x-large;
-
+    font-size: xx-large;
+    align-items: center;
+    margin-left: 15em;
+    margin-right: 20em;
+    line-height: normal;
+    
 }
-
-
-
-.aboutus p {
-    color: #32CCBC;
+#pone {
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 4em;
+    margin-right: 15em;
+    margin-left: 25em;
+}
+h3 {
+color: #32CCBC;
+margin-left: 10em;
+font-style: italic;
+}
+footer {
+    background: linear-gradient(135deg, #90F7EC 0%, #32CCBC 100%);
+}
+.copy {
+    text-align: center;
+}
+#ctn {
+    margin-left: 60%;
+    background: linear-gradient(135deg, #FCCF31 0%, #F55555 100%);
+    border: none;
+    width: 80px;
+    height: 28px;
+    top: 35px;
+    left: 1080px;
+    border-radius: 10px;
+}
+center{
+    padding-top: 2%;
 }
