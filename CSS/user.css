@@ -1,36 +1,42 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background: #E5E5E5;
 }
-.navbar{
+
+.navbar {
     width: 100%;
     overflow: auto;
     background: linear-gradient(135deg, #90F7EC 0%, #32CCBC 100%);
     font-style: normal;
     font-size: 30px;
 }
-ul{
+
+ul {
     padding: 0;
     margin: 0 0 0 250px;
     list-style: none;
 }
-li{
+
+li {
     float: left;
     text-decoration: none;
 }
-li a{
+
+li a {
     width: 100px;
     padding: 20px 15px;
     font-family: Arial;
     color: black;
     text-align: center;
 }
-li a:hover{
+
+li a:hover {
     background: linear-gradient(135deg, #FCCF31 0%, #F55555 100%);
     text-transform: uppercase;
 }
-.btn{
+
+.btn {
     background: linear-gradient(135deg, #FCCF31 0%, #F55555 100%);
     border: none;
     width: 150px;
@@ -38,17 +44,18 @@ li a:hover{
     top: 35px;
     left: 1080px;
     border-radius: 10px;
-    
 }
- #container{
+
+#container {
     min-height: 100%;
 }
+
 #main {
     overflow: auto;
     padding-bottom: 100px;
-} */
+}
 
-* {
+*/ * {
     margin: 0;
     position: relative;
     padding: 0%;
@@ -56,12 +63,13 @@ li a:hover{
 }
 
 .container {
-    background-color: rgb(255, 240, 240);
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .box1 {
     border: 2px solid rgb(43, 223, 43);
-    width: 800px;
+    width: 500px;
     margin: 50px;
     padding: 20px;
     border-radius: 3px;
@@ -70,7 +78,7 @@ li a:hover{
 
 .box2 {
     border: 2px solid rgb(223, 43, 43);
-    width: 800px;
+    width: 500px;
     margin: 60px 50px;
     padding: 20px;
     border-radius: 3px;
@@ -97,7 +105,7 @@ li a:hover{
 }
 
 .box3 {
-    margin: 45px;
+    margin: 0px;
     width: 200px;
     text-align: center;
 }
@@ -148,22 +156,22 @@ li a:hover{
 }
 
 div.money {
-    background-color: rgb(255, 240, 240);
     width: 600px;
     height: 250px;
     overflow-x: hidden;
     overflow-y: auto;
     text-align: justify;
 }
- center{
-     padding-top: 2%;
- }
+
 footer {
     background: linear-gradient(135deg, #90F7EC 0%, #32CCBC 100%);
+    width: 100%;
 }
-.copy {
-    text-align: center;
+
+center {
+    padding-top: 2%;
 }
+
 #ctn {
     margin-left: 60%;
     background: linear-gradient(135deg, #FCCF31 0%, #F55555 100%);
@@ -174,3 +182,28 @@ footer {
     left: 1080px;
     border-radius: 10px;
 }
+
+
+/* 
+center {
+    padding-top: 2%;
+}
+
+footer {
+    background: linear-gradient(135deg, #90F7EC 0%, #32CCBC 100%);
+}
+
+.copy {
+    text-align: center;
+}
+
+#ctn {
+    margin-left: 60%;
+    background: linear-gradient(135deg, #FCCF31 0%, #F55555 100%);
+    border: none;
+    width: 80px;
+    height: 28px;
+    top: 35px;
+    left: 1080px;
+    border-radius: 10px;
+} */

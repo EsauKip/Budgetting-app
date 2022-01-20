@@ -22,18 +22,17 @@
             <li><a href="home.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="#">Services</a></li>
-            <li><a href="#login"><button class="btn" type="submit">Sign in</button></a></li>
-            <li><a href="#signup"><button class="btn" type="submit">Sign up</button></a></li>
+
+            <li><a href="home.html"><button class="btn" type="submit">Sign out</button></a></li>
         </ul>
     </nav>
-
-    <div class="container">
+    <div class="container container-fluid">
         <div id="firstbudget">
             <div>
                 <h2 style="margin-left: 50px;"> BUDGET APP </h2>
                 <div class="box1">
-                    <div> Please Enter Your Budjet </div>
-                    <input type="number" class="amount" name="budget" id="budget" placeholder="Enter Your Budjet Amount"><br>
+                    <div> Please Enter Your Budget </div>
+                    <input type="number" class="amount" name="budget" id="budget" placeholder="Enter Your Budget Amount"><br>
                     <button type="button" onclick="budgetclick()" class="btn1"> Calculate </button>
                 </div>
             </div>
@@ -96,13 +95,57 @@
             </div>
         </div>
     </div>
-    <footer class="container-fluid">
+
+    <footer>
+        <div class="container2 down">
+            <center>
+                <textarea name="" id="comment" cols="50" rows="3" placeholder=" Add review" required></textarea>
+            </center>
+            <button id="ctn">send</button>
+            <div class="row">
+                <div class="col-lg-4 links">
+                    <h6 style="font: size 30px;font-weight: bold;margin-left: 50px;">Quick links</h6>
+
+                    <a href="home.html" style="font-size: 20px; text-decoration: none;margin-left: 50px;">Home</a><br>
+                    <a href="about.html" style="font-size: 20px; text-decoration: none;margin-left: 50px;">About</a><br>
+                    <a href="user" style="font-size: 20px; text-decoration: none;margin-left: 50px;">Services</a><br>
+
+                </div>
+                <div class="col-lg-4 ">
+                    <h6 style="font: size 30px;font-weight: bold; ">Contact Information</h6>
+                    <a>+254 725933154</a><br>
+                    <a>+254 789652341</a><br>
+                    <a>+254 486315215</a><br>
+                </div>
+                <div class="col-lg-4 ">
+                    <h6 style="font: size 30px;font-weight: bold; ">Follow us on:</h6>
+                    <a>Facebook</a><br>
+                    <a>Instagram</a><br>
+                    <a>Twitter</a><br>
+                    <a>LinkedIn</a>
+                    <a>LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <p style="text-align:center;">&copy:info.budgetapp.com:2022</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- <footer class="container-fluid">
         <center> <textarea name="" id="" cols="50" rows="3" placeholder=" Add comment"></textarea></center>
         <button id="ctn">send</button>
         <div class="row">
             <div class="col-md-4 links">
-                <h6>Quick links</h6><br>
-                <a href="#">Home</a><br>
+                <h6>Quick links</h6><br> i
+                <br>
                 <a href="#">About</a><br>
                 <a href="#">Services</a><br>
             </div>
@@ -122,9 +165,9 @@
         </div>
         <div class="copy">
             <p>&copy:info@budgeter.co.ke 2022
-            </p>
+            </p> -->
 
-            <script src="JS/user.js"></script>
+    <script src="JS/user.js"></script>
 </body>
 
 </html>
