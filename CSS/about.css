@@ -85,10 +85,47 @@ background:#E5E5E5;
     margin-right: 15em;
     margin-left: 25em;
 }
+
+#whowe {
+line-height: 2em;
+margin-left: 4em;
+margin-right: 18em;
+}
+.fit-picture {
+    width: 100%;
+    margin: 0;
+    }
 h3 {
 color: #32CCBC;
 margin-left: 10em;
 font-style: italic;
+font-weight: bold;
+}
+h4 {
+    color: #32CCBC;
+    font-weight: bold;
+}
+.moreus {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 36px;
+    padding-right: 36px;
+    gap: 40px;
+   
+}
+
+.moreus>div {
+    border: solid 3px rgba(69, 194, 6, 0.4);
+    padding: 24px;
+    width: 30%;
+    border-radius: 18px;
+    display: flex;
+    height: 75%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 footer {
     background: linear-gradient(135deg, #90F7EC 0%, #32CCBC 100%);
