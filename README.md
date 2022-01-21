@@ -4,7 +4,7 @@ By 5 pair programmers namely Esau Kiprono, Milka Otieno, Hezron Kiprop, Ian Otie
 ## Description
 The project is about the creation of an app called budget app. Its main purpose is to help to control your spending, track your expenses and helps you save more money.
 ## Live demo
-Click on the link  bellow to view the site;
+Click on the link  bellow to view the site;https://esaukip.github.io/Budgetting-app/
 ## Set up and Installation
 1)Install the Visual studio code<br>
 2)Git clone the repository<br>
